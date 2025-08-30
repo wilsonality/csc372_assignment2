@@ -1,0 +1,12 @@
+.section{
+    background-color: darkslategray;
+}
+
+a{
+    .page{
+        color:chocolate;
+    }
+    .page:hover{
+        color:bisque;
+    }
+}
