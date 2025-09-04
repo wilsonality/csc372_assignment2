@@ -1,12 +1,117 @@
 .section{
-    background-color: darkslategray;
+    background-color: #ccd6bb;
+    padding: 15px;
 }
+.section2{
+    padding: 25px;
+}
+
+ol.earth{
+    list-style-image:url('imgs/globe-icon.png');
+}
+
+img.large{
+    max-width: 75vw;
+    border: #152939 5px solid;
+}
+
+
+img.medium{
+    max-width: 50vw;
+    border: #152939 5px solid;
+    border-radius: 10px;
+    margin: 10px 30px;
+}
+
+div.pagebox{
+    background-image: url(imgs/snow_mountain.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+img.small{
+    max-width: 40vw;
+    margin: 10px 30px;
+    border: #6e4b80 5px solid;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+.testimonial{
+    background-color: #FFFFA8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+
 
 a{
     .page{
-        color:chocolate;
+        color:#A4A400;
     }
     .page:hover{
         color:bisque;
     }
+    .navbar{
+        color:white;
+    }
+}
+
+.navbar{
+    background-color: midnightblue;
+    padding: 5px;
+    color: white;
+}
+
+button{
+    background: none;
+    border: none;
+    border-radius: 4;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    font-weight:bold;
+    text-decoration: underline;
+    color: #A4A400;
+}
+h2{
+    font-size: 18pt;
+    text-align: left;
+    text-decoration: underline;
+    color: #A4A400;
+}
+h3{
+    color: #404040;
+    background-color: rgb(200, 222, 231);
+    font-size: 14pt;
+    text-align: left;
+    text-decoration: underline;
+    color: #61611e;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+p{
+    color: #404040;
+    background-color: #c8dee7;
+    font-size: 11pt;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:5px;
+}
+
+li{
+    background-color: #c8dee7;
+    list-style-position: inside;
+    list-style-type: decimal;
+    color: #404040;
+    font-size: 14pt;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:5px;
 }
